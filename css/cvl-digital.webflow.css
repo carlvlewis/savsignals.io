@@ -239,7 +239,11 @@
 }
 
 .text-block-2 {
+  padding-top: 13px;
+  font-family: 'Libre Franklin', sans-serif;
   color: #000;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .copyright {
@@ -312,6 +316,27 @@
 
 .text-block-3 {
   margin-left: 71px;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.nav-link {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+.nav-link-2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-link-3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 @media (max-width: 991px) {
@@ -391,6 +416,15 @@
   }
   .link-block.logo {
     display: block;
+  }
+  .vertical {
+    margin-top: 5px;
+    margin-bottom: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .heading {
+    font-size: 30px;
   }
   .paragraph {
     font-size: 12px;
