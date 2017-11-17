@@ -1,0 +1,418 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #fcfcfc;
+  background-image: url('../images/geometry_2X.png');
+  background-position: 0px 0px;
+  background-size: 412px;
+}
+
+.middle {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #c6c6c5;
+}
+
+.middle.noline {
+  border-bottom-style: none;
+}
+
+.link-block {
+  margin-right: 30px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link-block:hover {
+  color: #2a64ac;
+}
+
+.link-block.logo {
+  color: #2a64ac;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.vertical {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  float: left;
+  background-color: #fcfcfc;
+  background-image: url('../images/geometry_2X.png');
+  background-position: 0px 0px;
+  background-size: 412px;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #474850;
+  font-size: 90px;
+  line-height: 90px;
+}
+
+.paragraph {
+  width: 80%;
+  margin-bottom: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #606061;
+  font-size: 23px;
+  line-height: 40px;
+  font-weight: 200;
+  letter-spacing: 0.1px;
+}
+
+.button {
+  padding: 5px 0px;
+  border-bottom: 2px none #fcfcfc;
+  background-color: #2393a8;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #fff6f6;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.button:hover {
+  border-bottom-color: #2a64ac;
+}
+
+.button.formbutton {
+  font-weight: 600;
+}
+
+.address {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  float: left;
+  background-color: #fcfcfc;
+}
+
+.text-block {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #000;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.column {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.column-2 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.heading-2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #c9a636;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.heading-2.white {
+  color: #fcfcfc;
+}
+
+.column-3 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.socialmedialinks {
+  margin-top: 5px;
+}
+
+.sociallink {
+  width: 25px;
+  height: 25px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border-radius: 25px;
+  background-color: #fcfcfc;
+}
+
+.sociallink:hover {
+  background-color: #2a64ac;
+}
+
+.socialimg {
+  opacity: 0.5;
+}
+
+.map {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  float: left;
+  background-color: #c6c6c5;
+}
+
+.contact {
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  float: left;
+  background-color: #fcfcfc;
+}
+
+.form {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.field-label {
+  margin-bottom: 7px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #2a64ac;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-field {
+  height: auto;
+  margin-bottom: 20px;
+  border: 1px solid #c6c6c5;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #1a345d;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.fifty {
+  width: 50%;
+  padding-right: 10px;
+  float: left;
+}
+
+.fifty.right {
+  padding-right: 0px;
+  padding-left: 10px;
+}
+
+.googlemap {
+  position: relative;
+  width: 100%;
+  height: 105%;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  float: left;
+  background-color: #1a345d;
+}
+
+.text-block-2 {
+  color: #000;
+}
+
+.copyright {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #fcfcfc;
+  font-weight: 100;
+}
+
+.link-block-2 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 40px;
+  float: left;
+  background-color: #000;
+}
+
+.fiftylogo {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.left {
+  height: 100%;
+  max-width: 9999px;
+  float: left;
+  opacity: 0.6;
+}
+
+.right {
+  height: 100%;
+  max-width: 9999px;
+  float: right;
+  opacity: 0.6;
+}
+
+.link {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.link-2 {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.image {
+  display: block;
+  padding-top: 16px;
+  padding-right: 32px;
+  float: left;
+  text-align: center;
+}
+
+.image-2 {
+  margin-top: -59px;
+  margin-bottom: -29px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.image-3 {
+  margin-top: -23px;
+  padding-top: 0px;
+  padding-left: 18px;
+}
+
+.text-block-3 {
+  margin-left: 71px;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    height: 200px;
+    background-color: #000;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 75px;
+  }
+  .about {
+    height: 400px;
+  }
+  .heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .paragraph {
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .address {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .column {
+    margin-bottom: 15px;
+  }
+  .column-2 {
+    margin-bottom: 15px;
+  }
+  .column-3 {
+    margin-bottom: 15px;
+  }
+  .contact {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .form {
+    margin-bottom: 25px;
+  }
+  .fifty {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .fifty.right {
+    padding-left: 0px;
+  }
+  .footer {
+    height: auto;
+    background-color: #1a345d;
+  }
+  .row {
+    padding-bottom: 25px;
+  }
+  .link-block-2 {
+    overflow: hidden;
+  }
+  .right {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .header {
+    height: 50px;
+  }
+  .link-block {
+    display: none;
+    margin-right: 15px;
+    font-size: 16px;
+  }
+  .link-block.logo {
+    display: block;
+  }
+  .paragraph {
+    font-size: 12px;
+  }
+  .address {
+    top: 6px;
+  }
+  .socialmedialinks {
+    margin-top: 10px;
+  }
+  .map {
+    height: 300px;
+  }
+  .text-block-2 {
+    font-size: 18px;
+  }
+  .link-block-2 {
+    overflow: hidden;
+  }
+  .image {
+    margin-bottom: 13px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
